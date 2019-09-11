@@ -1,0 +1,55 @@
+prog program;
+	begin
+		var a: int;
+		var b: char;
+		var c: char;
+		var d,a2,b,z,x3: char;
+		var var5: array [] of int;
+
+		while a>b
+		do
+			if a>b then
+				while a > b
+				do
+					a:= 5
+			else
+				a:=6;
+
+			read (a, b, c, d);
+		
+		assert(a < + b);
+
+		func newFunc (a2: int, var b3: int) : int ;
+		begin
+			a2 := 6;
+			b3 := 5;
+			a2 := a2 + b3;
+
+		end
+		;
+
+		proc abc (z: real, x: char);
+		begin 
+			z := x + y;
+			z := 200;
+			func funcOne (a: real, var b: real) : char;
+			begin
+				func funcTwo(x: int, b: char): real;
+				begin
+					proc procOne(a: int, b: int);
+					begin
+						x := 4;
+						y := 6;
+					end;
+				end;
+				proc xyz(z: real, x: int);
+				begin
+					func funcTh(para: int, para: int) : int;
+					begin
+						a := "abc"
+					end;
+				end
+			end
+		end
+	end
+.
